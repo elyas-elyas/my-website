@@ -6,7 +6,7 @@ export const projectsData = [
     title: 'High-Performance Matching Engine & Real-Time Dashboard',
     company: 'Personal Project',
     duration: '2026',
-    link: 'https://github.com/elyas-elyas/HighPerformance-MatchingEngine',
+    link: 'https://github.com/elyas-elyas/Matching-Engine',
     description: [
       'Engineered a multi-threaded Limit Order Book (LOB) and matching engine in C# .NET 10, handling order execution with Price/Time priority and low-latency TCP connectivity.',
       'Developed a full-stack ecosystem including an autonomous Market Making bot and a real-time Blazor Interactive Server dashboard to visualize market data (Ticker Tape, Price Charts) via SignalR.',

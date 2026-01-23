@@ -1,6 +1,20 @@
 // src/data/projects.ts
 
 export const projectsData = [
+  {
+    id: 'high-performance-matching-engine',
+    title: 'High-Performance Matching Engine & Real-Time Dashboard',
+    company: 'Personal Project',
+    duration: '2026',
+    link: 'https://github.com/elyas-elyas/HighPerformance-MatchingEngine',
+    description: [
+      'Engineered a multi-threaded Limit Order Book (LOB) and matching engine in C# .NET 10, handling order execution with Price/Time priority and low-latency TCP connectivity.',
+      'Developed a full-stack ecosystem including an autonomous Market Making bot and a real-time Blazor Interactive Server dashboard to visualize market data (Ticker Tape, Price Charts) via SignalR.',
+      'Demonstrates mastery of Event-Driven Architecture, concurrent programming, and building high-performance financial infrastructure from scratch.',
+    ],
+    tools: ['C# .NET 10', 'Blazor Server', 'TCP/IP Sockets', 'SignalR', 'Multithreading', 'Event-Driven Architecture'],
+  },
+
     {
     id: "quant-ai-bot",
     title: "Quant AI Bot (Retrieval-Augmented Generation Chatbot for Quantitative Finance)",

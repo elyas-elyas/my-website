@@ -2,6 +2,19 @@
 
 export const projectsData = [
   {
+    id: 'market-risk-engine-evt',
+    title: 'Market Risk Engine & EVT Dashboard (Quantitative Risk Management)',
+    company: 'Personal Project',
+    duration: '2026',
+    link: 'https://github.com/elyas-elyas/Market-Risk-Engine-Extreme-Value-Theory-EVT-Dashboard/tree/main',
+    description: [
+      'Built a professional-grade Risk Management System in R using Extreme Value Theory (EVT) and GARCH models to capture "Fat Tail" risks often missed by standard Normal distribution models.',
+      'Calculates regulatory-grade metrics including Value at Risk (VaR) and Expected Shortfall (ES) at high confidence levels (99.9%) using the Peaks Over Threshold (POT) method.',
+      'Developed an interactive Shiny dashboard for real-time backtesting against historical market crashes (e.g., COVID-19), visualizing risk underestimation by traditional Gaussian models.',
+    ],
+    tools: ['R', 'Shiny', 'Quantitative Finance', 'Extreme Value Theory', 'GARCH', 'Risk Management'],
+  },
+  {
     id: 'high-performance-matching-engine',
     title: 'High-Performance Matching Engine & Real-Time Dashboard',
     company: 'Personal Project',

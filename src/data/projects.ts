@@ -1,5 +1,3 @@
-// src/data/projects.ts
-
 export const projectsData = [
   {
     id: 'optimal-execution-nonlinear-impact',
@@ -9,11 +7,13 @@ export const projectsData = [
     link: '/Quantitative_Research_Optimal_Execution under_Non_Linear_Impact.pdf', 
     description: [
       'Derivation of an optimal liquidation strategy for large institutional orders by solving a non-linear Hamilton-Jacobi-Bellman (HJB) equation under CARA utility.',
-      'Implementation of a robust Finite Difference scheme (Upwind/Explicit Euler) to handle the "Square-Root Law" ($\phi=0.5$) of market impact, addressing the singularity of the impact gradient.',
+      'Implementation of a robust Finite Difference scheme (Upwind/Explicit Euler) to handle the "Square-Root Law" ($\\phi=0.5$) of market impact, addressing the singularity of the impact gradient.',
       'Empirical validation demonstrating a 20.7% cost reduction compared to TWAP and a 15.2% gain over the linear Almgren-Chriss model for SPY ETF meta-orders.',
       'Quantification of model risk and the risk-cost trade-off using Monte Carlo simulations (10,000 paths), proving strategy robustness (inefficiency < 1.5%) under misspecification.'
     ],
     tools: ['Stochastic Control', 'HJB Equations', 'Numerical Methods (PDE)', 'Market Microstructure', 'Python/MATLAB', 'Monte Carlo Simulation'],
+    buttonLabel: 'View the PDF',
+    isGithub: false
   },
   {
     id: 'market-risk-engine-evt',
@@ -27,6 +27,8 @@ export const projectsData = [
       'Developed an interactive Shiny dashboard for real-time backtesting against historical market crashes (e.g., COVID-19), visualizing risk underestimation by traditional Gaussian models.',
     ],
     tools: ['R', 'Shiny', 'Quantitative Finance', 'Extreme Value Theory', 'GARCH', 'Risk Management'],
+    buttonLabel: 'View on GitHub',
+    isGithub: true
   },
   {
     id: 'high-performance-matching-engine',
@@ -40,9 +42,10 @@ export const projectsData = [
       'Demonstrates mastery of Event-Driven Architecture, concurrent programming, and building high-performance financial infrastructure from scratch.',
     ],
     tools: ['C# .NET 10', 'Blazor Server', 'TCP/IP Sockets', 'SignalR', 'Multithreading', 'Event-Driven Architecture'],
+    buttonLabel: 'View on GitHub',
+    isGithub: true
   },
-
-    {
+  {
     id: "quant-ai-bot",
     title: "Quant AI Bot (Retrieval-Augmented Generation Chatbot for Quantitative Finance)",
     company: "Personal Project",
@@ -53,7 +56,9 @@ export const projectsData = [
       "Designed the system to ingest and vectorize academic course materials and research papers, enabling context-aware responses with precise source citations.",
       "Developed a local, privacy-focused interactive interface that allows users to query complex financial concepts and receive accurate explanations backed by original documents."
     ],
-    "tools": ["Python", "Quantitative Finance", "Streamlit", "Local LLMs (Ollama/Llama-Index)", "RAG & Vector Embeddings"]
+    tools: ["Python", "Quantitative Finance", "Streamlit", "Local LLMs (Ollama/Llama-Index)", "RAG & Vector Embeddings"],
+    buttonLabel: 'View on GitHub',
+    isGithub: true
   },
   {
     id: 'portfolio-optimizer',
@@ -67,6 +72,8 @@ export const projectsData = [
       'Showcases expertise in quantitative finance modeling and web-based data visualization.',
     ],
     tools: ['Python', 'Quantitative Finance', 'Streamlit', 'NumPy', 'Pandas', 'Data Visualization'],
+    buttonLabel: 'View on GitHub',
+    isGithub: true
   },
   {
     id: 'option-pricing-risk-engine',
@@ -80,6 +87,8 @@ export const projectsData = [
       'Demonstrates advanced knowledge of derivatives valuation and stochastic calculus application.',
     ],
     tools: ['C++', 'Quantitative Finance', 'Option Pricing', 'Risk Management', 'Derivatives', 'Stochastic Calculus'],
+    buttonLabel: 'View on GitHub',
+    isGithub: true
   },
   {
     id: 'pair-trading-strategy',
@@ -93,6 +102,8 @@ export const projectsData = [
       'Validates practical application of stochastic processes and time-series analysis in finance.',
     ],
     tools: ['Python', 'Statistical Arbitrage', 'Cointegration', 'Backtesting', 'Quantitative Analysis', 'Pandas'],
+    buttonLabel: 'View on GitHub',
+    isGithub: true
   },
   {
     id: 'receipt-extraction-dl',
@@ -106,6 +117,8 @@ export const projectsData = [
       'Demonstrates advanced skills in Computer Vision, NLP, and Deep Learning model deployment.',
     ],
     tools: ['Deep Learning', 'PyTorch/TensorFlow', 'Computer Vision', 'OCR', 'NLP', 'Python'],
+    buttonLabel: 'View on GitHub',
+    isGithub: true
   },
   {
     id: 'gestion-tarifs-vols',
@@ -119,6 +132,8 @@ export const projectsData = [
       'Resulted in a tool capable of providing dynamic pricing recommendations for optimization.',
     ],
     tools: ['Machine Learning', 'Regression Models', 'Data Scraping', 'Python', 'Predictive Analytics'],
+    buttonLabel: 'View on GitHub',
+    isGithub: true
   },
   {
     id: 'projet-n-corps',
@@ -132,5 +147,7 @@ export const projectsData = [
       'Highlights strong background in C++ and high-performance scientific computing.',
     ],
     tools: ['C++', 'Numerical Methods', 'High-Performance Computing', 'Physics Simulation', 'Optimization'],
-  },
+    buttonLabel: 'View on GitHub',
+    isGithub: true
+  }
 ];

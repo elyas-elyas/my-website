@@ -6,12 +6,11 @@ export const projectsData = [
     duration: '2026',
     link: '/Quantitative_Research_Optimal_Execution under_Non_Linear_Impact.pdf', 
     description: [
-      'Derivation of an optimal liquidation strategy for large institutional orders by solving a non-linear Hamilton-Jacobi-Bellman (HJB) equation under CARA utility.',
-      'Implementation of a robust Finite Difference scheme (Upwind/Explicit Euler) to handle the "Square-Root Law" ($\\phi=0.5$) of market impact, addressing the singularity of the impact gradient.',
-      'Empirical validation demonstrating a 20.7% cost reduction compared to TWAP and a 15.2% gain over the linear Almgren-Chriss model for SPY ETF meta-orders.',
-      'Quantification of model risk and the risk-cost trade-off using Monte Carlo simulations (10,000 paths), proving strategy robustness (inefficiency < 1.5%) under misspecification.'
-    ],
-    tools: ['Stochastic Control', 'HJB Equations', 'Numerical Methods (PDE)', 'Market Microstructure', 'Python/MATLAB', 'Monte Carlo Simulation'],
+          'Investigated the optimal liquidation of large institutional orders in markets exhibiting concave liquidity costs (the "Square-Root Law") by formulating the problem under a CARA utility framework.',
+          'Derived a non-linear Master Equation and implemented a robust Finite Difference scheme satisfying the CFL condition to handle the singularity of the impact gradient.',
+          'Demonstrated through empirical validation that the optimal convex schedule outperforms the TWAP benchmark by approximately 20.7% for large meta-orders, and utilized Monte Carlo simulations to assess the trade-off between execution cost reduction and variance risk.'
+        ],
+    tools: ['Quantitative Research', 'Stochastic Control', 'HJB Equations', 'Numerical Methods (PDE)', 'Market Microstructure', 'Python/MATLAB', 'Monte Carlo Simulation'],
     buttonLabel: 'View the PDF',
     isGithub: false
   },

@@ -2,6 +2,20 @@
 
 export const projectsData = [
   {
+    id: 'optimal-execution-nonlinear-impact',
+    title: 'Optimal Execution under Non-Linear Impact (Quantitative Research)',
+    company: 'Quantitative Research Paper',
+    duration: '2026',
+    link: '/Quantitative_Research_Optimal_Execution under_Non_Linear_Impact.pdf', 
+    description: [
+      'Derivation of an optimal liquidation strategy for large institutional orders by solving a non-linear Hamilton-Jacobi-Bellman (HJB) equation under CARA utility.',
+      'Implementation of a robust Finite Difference scheme (Upwind/Explicit Euler) to handle the "Square-Root Law" ($\phi=0.5$) of market impact, addressing the singularity of the impact gradient.',
+      'Empirical validation demonstrating a 20.7% cost reduction compared to TWAP and a 15.2% gain over the linear Almgren-Chriss model for SPY ETF meta-orders.',
+      'Quantification of model risk and the risk-cost trade-off using Monte Carlo simulations (10,000 paths), proving strategy robustness (inefficiency < 1.5%) under misspecification.'
+    ],
+    tools: ['Stochastic Control', 'HJB Equations', 'Numerical Methods (PDE)', 'Market Microstructure', 'Python/MATLAB', 'Monte Carlo Simulation'],
+  },
+  {
     id: 'market-risk-engine-evt',
     title: 'Market Risk Engine & EVT Dashboard (Quantitative Risk Management)',
     company: 'Personal Project',

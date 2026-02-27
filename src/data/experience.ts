@@ -10,7 +10,7 @@ const getTechTags = (techs: string[]) => {
 
 export const professionalExperience = [
   {
-    title: 'Apprenticeship - Risk Management',
+    title: 'Apprenticeship - Asset–Liability Management Analyst ',
     company: 'HSBC',
     location: 'Paris, FRANCE',
     duration: 'Sept 2025 - Present', // Adapté de Sept 2025
@@ -23,7 +23,7 @@ export const professionalExperience = [
     tech: ['Python', 'VBA', 'ALM Modeling', 'Financial Modeling', 'Statistical Analysis', 'Actuarial Science','Quantitative Finance', 'Solvency II', 'ORSA'],
   },
   {
-    title: 'Intern - Software & Data Analysis',
+    title: 'Intern - Data and Analytics Engineer',
     company: 'Thales',
     location: 'Paris, FRANCE',
     duration: 'Jan 2024 - July 2024',
@@ -34,7 +34,7 @@ export const professionalExperience = [
     tech: ['C', 'Lua', 'Python', 'Data Visualization', 'Data Decoding', 'Tool Development' ,'Network Development'],
   },
   {
-    title: 'Intern - Quantitative Finance & Modeling',
+    title: 'Intern - Quantitative Analyst / Quantitative Researcher ',
     company: 'Kyoto University, Mathematics Laboratory',
     location: 'Kyoto, JAPAN ',
     duration: 'June 2023  - Aug 2023 ',
@@ -42,12 +42,13 @@ export const professionalExperience = [
       'Built mathematical and computational tools for stochastic modeling and numerical optimization.',
       'Applied quantitative finance methods (Monte Carlo simulations, stochastic processes, model calibration).',
       'Conducted advanced statistical analysis and automated complex simulations using C++, Python and MATLAB.',
-      'Created an original system of mathematical equations for modeling and analysis.',
+      'Created an original system of mathematical equations for modeling (with Black-Scholes, Heston, Hull-White, Volatility, VaR).',
+      'Delivered training sessions for multidisciplinary international experts.',
     ],
     tech: ['C++', 'Python', 'MATLAB', 'Quantitative Finance', 'Quantitative Research', 'Monte Carlo Simulations', 'Stochastic Modeling', 'Numerical Modeling', 'Statistical Analysis'],
   },
   {
-    title: 'Industrial Project - AI & Data Science',
+    title: 'Industrial Project - Data Scientist',
     company: 'Snap Inc. (Snapchat)',
     location: 'Remote ',
     duration: 'Sept 2022 - May 2023',
@@ -60,7 +61,7 @@ export const professionalExperience = [
     tech: ['Artificial Intelligence', 'Data Science', 'Deep Learning', 'Machine Learning', 'Data Pipelines', 'MLOps Environment'],
   },
   {
-    title: 'Intern',
+    title: 'Intern - Data and Analytics Engineer',
     company: 'Nomadvantage',
     location: 'Paris, FRANCE',
     duration: 'June 2022 – Aug 2022',

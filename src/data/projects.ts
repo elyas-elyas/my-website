@@ -1,7 +1,7 @@
 export const projectsData = [
   {
     id: 'optimal-execution-nonlinear-impact',
-    title: 'Optimal Execution under Non-Linear Impact (Quantitative Research)',
+    title: 'Smart Trade Execution Strategy for Large Orders',
     company: 'Quantitative Research Paper',
     duration: '2026',
     link: '/Quantitative_Research_Optimal_Execution under_Non_Linear_Impact.pdf', 
@@ -16,7 +16,7 @@ export const projectsData = [
   },
   {
     id: 'market-risk-engine-evt',
-    title: 'Market Risk Engine & EVT Dashboard (Quantitative Risk Management)',
+    title: 'Financial Market Risk Calculator & Dashboard',
     company: 'Personal Project',
     duration: '2026',
     link: 'https://github.com/elyas-elyas/Market-Risk-Engine-Extreme-Value-Theory-EVT-Dashboard/tree/main',
@@ -31,7 +31,7 @@ export const projectsData = [
   },
   {
     id: 'high-performance-matching-engine',
-    title: 'High-Performance Matching Engine & Real-Time Dashboard',
+    title: 'Ultra-Fast Trading Platform & Real-Time Dashboard',
     company: 'Personal Project',
     duration: '2026',
     link: 'https://github.com/elyas-elyas/Matching-Engine',
@@ -46,7 +46,7 @@ export const projectsData = [
   },
   {
     id: "quant-ai-bot",
-    title: "Quant AI Bot (Retrieval-Augmented Generation Chatbot for Quantitative Finance)",
+    title: "AI Chatbot for Financial Research",
     company: "Personal Project",
     duration: "2025",
     link: "https://github.com/elyas-elyas/Quant_AI_Bot",
@@ -61,7 +61,7 @@ export const projectsData = [
   },
   {
     id: 'portfolio-optimizer',
-    title: 'Portfolio Optimizer & Interactive Dashboard (Quantitative Finance)',
+    title: 'Investment Portfolio Optimizer & Dashboard',
     company: 'Personal Project',
     duration: '2025',
     link: 'https://github.com/elyas-elyas/Portfolio-Optimizer-Dashboard',
@@ -76,7 +76,7 @@ export const projectsData = [
   },
   {
     id: 'option-pricing-risk-engine',
-    title: 'Quantitative Option Pricing and Risk Engine',
+    title: 'Financial Options Pricing & Risk Calculator',
     company: 'Personal Project',
     duration: '2025',
     link: 'https://github.com/elyas-elyas/Quantitative-Option-Pricing-and-Risk-Engine',
@@ -91,7 +91,7 @@ export const projectsData = [
   },
   {
     id: 'pair-trading-strategy',
-    title: 'Algorithmic Pair Trading Strategy Implementation',
+    title: 'Automated Trading Bot for Correlated Assets',
     company: 'Personal Project',
     duration: '2025',
     link: 'https://github.com/elyas-elyas/Pair-trading-strategy',
@@ -106,7 +106,7 @@ export const projectsData = [
   },
   {
     id: 'receipt-extraction-dl',
-    title: 'Receipt Total Extraction using Deep Learning (OCR/NLP)',
+    title: 'AI Tool for Extracting Receipt Totals',
     company: 'Academic Project',
     duration: '2024',
     link: 'https://github.com/elyas-elyas/Receipt-Total-Extraction-using-a-Deep-Learning-approach',
@@ -121,7 +121,7 @@ export const projectsData = [
   },
   {
     id: 'gestion-tarifs-vols',
-    title: 'Flight Price Prediction and Dynamic Management System',
+    title: 'Flight Price Prediction System',
     company: 'Academic Project',
     duration: '2024',
     link: 'https://github.com/elyas-elyas/Gestion-de-Tarifs-des-vols',
@@ -136,7 +136,7 @@ export const projectsData = [
   },
   {
     id: 'projet-n-corps',
-    title: 'N-Body Problem Simulation (C++ Numerical Methods)',
+    title: 'Astrophysics Gravity Simulation',
     company: 'Academic Group Project (with Rudiio)',
     duration: '2022',
     link: 'https://github.com/Rudiio/Projet-N-corps',

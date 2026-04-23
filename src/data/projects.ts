@@ -29,6 +29,21 @@ export const projectsData = [
     buttonLabel: 'View on GitHub',
     isGithub: true
   },
+    {
+    id: "quant-ai-bot",
+    title: "Quant AI Bot (Retrieval-Augmented Generation Chatbot for Quantitative Finance)",
+    company: "Personal Project",
+    duration: "2025",
+    link: "https://github.com/elyas-elyas/Quant_AI_Bot",
+    description: [
+      "Built an advanced Retrieval-Augmented Generation (RAG) chatbot tailored for quantitative finance research and analysis.",
+      "Designed the system to ingest and vectorize academic course materials and research papers, enabling context-aware responses with precise source citations.",
+      "Developed a local, privacy-focused interactive interface that allows users to query complex financial concepts and receive accurate explanations backed by original documents."
+    ],
+    tools: ["Python", "Quantitative Finance", "Streamlit", "Local LLMs (Ollama/Llama-Index)", "RAG & Vector Embeddings"],
+    buttonLabel: 'View on GitHub',
+    isGithub: true
+  },
   {
     id: 'high-performance-matching-engine',
     title: 'Ultra-Fast Trading Platform & Real-Time Dashboard',
@@ -41,21 +56,6 @@ export const projectsData = [
       'Demonstrates mastery of Event-Driven Architecture, concurrent programming, and building high-performance financial infrastructure from scratch.',
     ],
     tools: ['C# .NET 10', 'Blazor Server', 'TCP/IP Sockets', 'SignalR', 'Multithreading', 'Event-Driven Architecture'],
-    buttonLabel: 'View on GitHub',
-    isGithub: true
-  },
-  {
-    id: "quant-ai-bot",
-    title: "AI Chatbot for Financial Research",
-    company: "Personal Project",
-    duration: "2025",
-    link: "https://github.com/elyas-elyas/Quant_AI_Bot",
-    description: [
-      "Built an advanced Retrieval-Augmented Generation (RAG) chatbot tailored for quantitative finance research and analysis.",
-      "Designed the system to ingest and vectorize academic course materials and research papers, enabling context-aware responses with precise source citations.",
-      "Developed a local, privacy-focused interactive interface that allows users to query complex financial concepts and receive accurate explanations backed by original documents."
-    ],
-    tools: ["Python", "Quantitative Finance", "Streamlit", "Local LLMs (Ollama/Llama-Index)", "RAG & Vector Embeddings"],
     buttonLabel: 'View on GitHub',
     isGithub: true
   },

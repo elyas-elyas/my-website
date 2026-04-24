@@ -4,7 +4,7 @@ export const frenchCVData = {
   header: {
     title: "Curriculum Vitae (Français)",
     downloadLink: "/CV_Elyas_Assili.pdf", // Chemin vers le fichier en français
-    description: "Ingénieur en Mathématiques Appliquées et Informatique, je suis actuellement en préparation d'un second diplôme en Finance, Mathématiques Quantitatives, et Risques. J'ai développé une expérience diversifiée en France et à l'international, auprès de grandes entreprises, de laboratoires de recherche et de PME. Futur diplômé en 2026, je suis à la recherche d'une opportunité professionnelle.",
+    description: "Ingénieur en Mathématiques Appliquées et Informatique, je poursuis actuellement un second diplôme en Finance Quantitative et Gestion des Risques. J'ai acquis des expériences professionnelles variées en France et à l'international, en travaillant au sein de leaders mondiaux, de laboratoires de recherche et de PME. Je vise un poste quantitatif ou en finance de marché en CDI pour 2026.",
     contact: "+33 7 67 58 94 70 | elyasassili@gmail.com | https://github.com/elyas-elyas | Français"
   },
   sections: [
@@ -17,7 +17,7 @@ export const frenchCVData = {
           date: "Sept 2025",
           subtitle: "Master en Ingénierie des Risques : Finance et Assurance (M2)",
           location: "Paris, FRANCE",
-          details: ["Spécialisation en Ingénierie des Mathématiques Financières"],
+          details: ["Spécialisation en Mathématiques Financières"],
         },
         {
           heading: "Polytech Sorbonne - École Polytechnique Universitaire de Sorbonne Université",
@@ -40,19 +40,21 @@ export const frenchCVData = {
       type: "subheading_list",
       items: [
         {
-          heading: "HSBC - Apprentissage",
+          heading: "HSBC - Analyste en Gestion Actif/Passif ALM",
           date: "Sept 2025",
           subtitle: "",
           location: "Paris, FRANCE",
           details: [
-            "Amélioration des outils d'analyse prospective (allocation d'actifs, planification stratégique, ORSA) en Python et VBA.",
-            "Contribution au développement et perfectionnement des générateurs de scénarios économiques.",
-            "Analyse statistique et économique des données d'entrée/sortie du modèle ALM.",
-            "Participation aux études d'impact réglementaires (Solvabilité II et normes comptables).",
+            "Conception de workflows d'analyse de portefeuille traitant des données financières variées (points de modèle, notations de crédit, sorties de générateurs de scénarios économiques).",
+            "Réalisation d'études ALM complètes (AoC, duration, dilution, spread) pour orienter les décisions d'allocation d'actifs.",
+            "Architecture et déploiement de la migration d'un modèle de projection ALM complexe d'Excel vers un moteur de calcul Python scalable.",
+            "Réimplémentation manuel de formules financières avancées pour optimiser le pipeline de reporting ORSA via l'ingestion directe de fichiers CSV, garantissant la conformité Solvabilité II.",
+            "Développement d'une interface graphique (GUI) personnalisée pour la visualisation rapide de jeux de données ALM stockés au format .pickle.",
+            "Conception d'un parseur avancé basé sur des expressions régulières (Regex) pour cartographier récursivement les dépendances de cellules au sein de classeurs Excel et VBA hérités (legacy).",
           ],
         },
         {
-          heading: "Thales - Stage",
+          heading: "Thales - Ingénieur en Données et Analyste",
           date: "Jan 2024 -- Juillet 2024",
           subtitle: "",
           location: "Paris, FRANCE",
@@ -62,7 +64,7 @@ export const frenchCVData = {
           ],
         },
         {
-          heading: "Université de Kyoto, Laboratoire de Mathématiques - Stage",
+          heading: "Université de Kyoto, Laboratoire de Mathématiques - Analyste Quantitatif / Quantitative Researcher",
           date: "Juin 2023 -- Août 2023",
           subtitle: "",
           location: "Kyoto, JAPON",
@@ -75,7 +77,7 @@ export const frenchCVData = {
           ],
         },
         {
-          heading: "Snap Inc. (Snapchat) - Projet Industriel",
+          heading: "Snap Inc. (Snapchat) -  Data Scientist - Projet Industriel",
           date: "Sept 2022 -- Mai 2023",
           subtitle: "",
           location: "Remote",
@@ -88,7 +90,7 @@ export const frenchCVData = {
           ],
         },
         {
-          heading: "Nomadvantage - Stage",
+          heading: "Nomadvantage - Ingénieur en Données et Analyste",
           date: "Juin 2022 -- Août 2022",
           subtitle: "",
           location: "Paris, FRANCE",

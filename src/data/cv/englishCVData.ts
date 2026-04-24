@@ -4,7 +4,7 @@ export const englishCVData = {
   header: {
     title: "Curriculum Vitae (English)",
     downloadLink: "/Resume_Elyas_Assili.pdf", // Chemin vers le fichier en anglais
-    description: "Applied Mathematics and Computer Science Engineer, pursuing a second degree in Quantitative, Risk and Financial Mathematics. I have gained diverse professional experiences in France and internationally, working with global leaders, research laboratories, and SMEs. As a future graduate in 2026, I am seeking an opportunity.",
+    description: "Applied Mathematics and Computer Science Engineer, pursuing a second degree in Quantitative Finance and Risk Management. I have gained diverse professional experiences in France and internationally, working with global leaders, research laboratories, and SMEs. I am seeking a permanent position in quantitative finance or capital market for 2026.",
     contact: "+33 7 67 58 94 70 | elyasassili@gmail.com | https://github.com/elyas-elyas | French"
   },
   sections: [
@@ -40,19 +40,21 @@ export const englishCVData = {
       type: "subheading_list",
       items: [
         {
-          heading: "HSBC - Apprenticeship",
+          heading: "HSBC -  Asset-Liability Management Analyst",
           date: "Sept 2025",
           subtitle: "",
           location: "Paris, FRANCE",
           details: [
-            "Enhanced forward-looking analysis tools (asset allocation, strategic planning, ORSA) using Python and VBA.",
-            "Contributed to the development and improvement of economic scenario generators.",
-            "Performed statistical and economic analysis of input/output data from the ALM model.",
-            "Participated in impact assessments under Solvency II and accounting standards.",
+            "Engineered portfolio analysis workflows processing diverse financial inputs (model points, credit ratings, outputs from economic scenario generators).",
+            "Conducted comprehensive ALM studies (AoC, duration, dilution, spread) to inform asset allocation decisions.",
+            "Architected and deployed the migration of a complex ALM projection model from Excel into a scalable Python calculation engine.",
+            "Manually rewrote advanced financial formulas to optimize the ORSA reporting pipeline via direct CSV ingestion, supporting Solvency II compliance.",
+            "Developed a custom GUI for rapid visualization of ALM datasets stored as .pickle files.",
+            "Built an advanced regex-based parser to recursively map cell dependencies across legacy Excel and VBA workbooks.",
           ],
         },
         {
-          heading: "Thales - Intern",
+          heading: "Thales - Data and Analytics Engineer ",
           date: "Jan 2024 -- July 2024",
           subtitle: "",
           location: "Paris, FRANCE",
@@ -62,7 +64,7 @@ export const englishCVData = {
           ],
         },
         {
-          heading: "Kyoto University, Mathematics Laboratory - Intern",
+          heading: "Kyoto University, Mathematics Laboratory - Quantitative Analyst / Quantitative Researcher",
           date: "June 2023 -- Aug 2023",
           subtitle: "",
           location: "Kyoto, JAPAN",
@@ -75,7 +77,7 @@ export const englishCVData = {
           ],
         },
         {
-          heading: "Snap Inc. (Snapchat) - Industrial Project",
+          heading: "Snap Inc. (Snapchat) -  Data Scientist - Industrial Project",
           date: "Sept 2022 -- May 2023",
           subtitle: "",
           location: "Remote",
@@ -88,7 +90,7 @@ export const englishCVData = {
           ],
         },
         {
-          heading: "Nomadvantage - Intern",
+          heading: "Nomadvantage -  Data and Analytics Engineer",
           date: "June 2022 -- Aug 2022",
           subtitle: "",
           location: "Paris, FRANCE",

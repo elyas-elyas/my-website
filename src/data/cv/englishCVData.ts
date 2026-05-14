@@ -40,7 +40,7 @@ export const englishCVData = {
       type: "subheading_list",
       items: [
         {
-          heading: "HSBC -  Asset-Liability Management Analyst",
+          heading: "HSBC -  Asset-Liability Management Quantitative Analyst",
           date: "Sept 2025",
           subtitle: "",
           location: "Paris, FRANCE",

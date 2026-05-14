@@ -40,7 +40,7 @@ export const frenchCVData = {
       type: "subheading_list",
       items: [
         {
-          heading: "HSBC - Analyste en Gestion Actif/Passif ALM",
+          heading: "HSBC - Analyste Quantitatif en Gestion Actif/Passif ALM",
           date: "Sept 2025",
           subtitle: "",
           location: "Paris, FRANCE",
